@@ -131,4 +131,4 @@ CART_SESSION_ID = 'cart'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://chicandclassy.herokuapp.com/']
+CSRF_TRUSTED_ORIGINS = ['https://chicandclassy.herokuapp.com']
