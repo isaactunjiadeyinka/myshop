@@ -1,1 +1,1 @@
-web: python manage.py runserver 0.0.0.0:$PORT
+web: gunicorn mayshop.wsgi --timeout 120 --keep-alive 5 --log-level debug --log-file -
